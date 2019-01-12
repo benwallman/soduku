@@ -1,0 +1,27 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  max-width: 500px;
+  margin: auto;
+}
+.grid-square {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  flex: 1 0 30%;
+  padding: 8px;
+}
+
+.cell {
+  flex: 0 0 30%;
+  justify-content: center;
+  max-width: 25%;
+}

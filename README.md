@@ -1,2 +1,0 @@
-# soduku
-Created with CodeSandbox
